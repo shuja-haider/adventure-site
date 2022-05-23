@@ -405,6 +405,8 @@ p {
     
     .menu-btn {
         display: block;
+      width: 25px;
+
     }
 
     .navbar {
