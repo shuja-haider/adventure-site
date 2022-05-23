@@ -21,6 +21,10 @@ ul {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+body {
+    scroll-behaviour: smooth;
+
+}
 
 body,html {
     overflow-x: hidden;
@@ -393,6 +397,12 @@ p {
 
 /* Mobile device */
 @media only screen and (max-width:850px) {
+    body {
+    scroll-behaviour: smooth;
+
+}
+
+    
     .menu-btn {
         display: block;
     }
